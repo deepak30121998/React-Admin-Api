@@ -1,8 +1,8 @@
 import React from "react";
+import Wrapper from "./Wrapper";
 
 const Dashboard = () => (
-  <div className="dashboard-container">
-    
+  
     <div>
       <h2>Section title</h2>
       <div className="table-responsive">
@@ -29,7 +29,7 @@ const Dashboard = () => (
         </table>
       </div>
     </div>
-  </div>
+  
 );
 
 export default Dashboard;
